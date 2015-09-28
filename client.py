@@ -11,7 +11,7 @@ def sendRequest(data, server):
   print myns.nameservers
   for d in data:
     d = d.strip()
-    domain = str(i)+'.'+d+'.pink.red.gad'
+    domain = str(i)+'.'+d+'.<domain>.<name>'
     print domain
     i = i + 1
 def chunks(l, n):

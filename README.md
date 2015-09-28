@@ -1,7 +1,7 @@
 # DNSSUB
 Exfiltrate files over dns requests using Python and/or Bash
 
-A quick set of scripts I done after seeing DNSFTP (https://github.com/breenmachine/dnsftp) 
+A quick set of scripts I did after seeing DNSFTP (https://github.com/breenmachine/dnsftp) 
 I used some of Breenmachine's code in the scripts, The chunks function is very handy.
 I also used Simple DNS server (https://gist.github.com/andreif/6069838) as a base dns server for this script.
 How it works:

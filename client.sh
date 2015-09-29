@@ -1,7 +1,6 @@
 #!/bin/bash
 file=$1
 server=$2
-base64f=$(base64 $file| fold -w 52)
 n=0
 base64 -w 52 $file| while read line; do
   line=$(echo $line |tr -d '\n')
